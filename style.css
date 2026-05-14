@@ -2,10 +2,10 @@ Style.css:
 /* --- Global Styles --- */
 /*body: Sets the global font, a light grey background, and removes default browser margins to ensure the site fills the screen edge-to-edge.*/
 body { 
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Courier New", "monospace";
     background: #C785FA; 
     margin: 0; 
-    color: #f0eaf3; 
+    color: rgb(252,38,245); 
 }
 
 /* --- Hero Section: This is the top banner of your site. It uses a sage green background (#8eaca8), centers the text, and provides ample padding for a bold introduction. */
@@ -28,7 +28,7 @@ body {
     background: rgb(241, 223, 252);
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(76, 7, 239, 0.1);
     margin-bottom: 20px;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(242, 217, 163, 0.2);
+    box-shadow: 0 15px 40px rgba(110, 122, 211, 0.2);
     cursor: pointer;
 }
 
@@ -61,13 +61,13 @@ body {
     object-fit: cover;
     border-radius: 8px;
     margin-top: 15px;
-    border: 1px solid #f7efd0;
+    border: 1px solid #94cce8;
 }
 
 /* --- Button --- */
 .btn {
     display: inline-block;
-    background: #f0eaf3;
+    background: #9abcff;
     color: #e019f3;
     color: ;
     padding: 10px 25px;
@@ -80,16 +80,16 @@ body {
 .documentation-card {
     display: block;
     text-decoration: none;
-    color: #fcffd5;
+    color: #e890e6;
     background: #ddc5f5;
     border-left: 5px solid #f997fa; /* Adds a nice accent bar */
     transition: all 0.3s ease;
 }
 
 .documentation-card:hover {
-    background: #f9f9f9;
+    background: #f0e0f1;
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(198, 224, 237, 0.1);
 }
 
 /* Styling for the internal button */
@@ -97,18 +97,18 @@ body {
     display: inline-block;
     margin-top: 15px;
     padding: 8px 16px;
-    background: #8eaca8;
-    color: white;
+    background: #9189ea;
+    color: rgb(177, 182, 234);
     border-radius: 5px;
     font-size: 0.9rem;
     font-weight: bold;
 }
 /* Special styling for the Final Project card */
 .final-project {
-    border: 2px solid #8eaca8; /* Adds a colored border */
-    background: #fdfdfd;      /* Slightly different background */
+    border: 2px solid #90a6ff; /* Adds a colored border */
+    background: #cd80fa;      /* Slightly different background */
 }
 
 .final-project h3 {
-    color: #8eaca8; /* Matches your header color */
+    color: #cae2f8; /* Matches your header color */
 }
