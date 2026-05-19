@@ -105,13 +105,13 @@ body {
 }
 /* Special styling for the Final Project card */
 .final-project {
-    border: 2px solid #90a6ff; /* Adds a colored border */
+    border: 2px solid #C290FC; /* Adds a colored border */
     background: #cd80fa;      /* Slightly different background */
 }
 
 .final-project h3 {
-    color: #cae2f8; /* Matches your header color */
+    color: #FC90CA; /* Matches your header color */
 }
 h1,h2,h3,h4,h5,h6{
-    color :brown;
+    color :#FC90CA;
 }
