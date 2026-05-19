@@ -30,7 +30,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(76, 7, 239, 0.1);
     margin-bottom: 20px;
-    color:blue
+    color:blue;
 }
 
 /* --- Project Grid (The Gallery): This is the most important part of your site layout. It uses display: grid and repeat(auto-fit, minmax(280px, 1fr)) . This tells the browser: "Put as many cards as can fit on a row, as long as they are at least 280px wide." This is why your projects automatically switch from a single column on a phone to multiple columns on a desktop. */
