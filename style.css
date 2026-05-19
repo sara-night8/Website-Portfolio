@@ -1,10 +1,10 @@
-Style.css:
+
 /* --- Global Styles --- */
 /*body: Sets the global font, a light grey background, and removes default browser margins to ensure the site fills the screen edge-to-edge.*/
 body { 
     font-family: "Lucida Console", "Courier New", "monospace";
-    background: #C785FA; 
-    margin: 0; 
+    background : #ecdafa; 
+    margin:0; 
     color: rgb(252,38,245); 
 }
 
@@ -30,6 +30,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(76, 7, 239, 0.1);
     margin-bottom: 20px;
+    color:blue
 }
 
 /* --- Project Grid (The Gallery): This is the most important part of your site layout. It uses display: grid and repeat(auto-fit, minmax(280px, 1fr)) . This tells the browser: "Put as many cards as can fit on a row, as long as they are at least 280px wide." This is why your projects automatically switch from a single column on a phone to multiple columns on a desktop. */
@@ -69,7 +70,7 @@ body {
     display: inline-block;
     background: #9abcff;
     color: #e019f3;
-    color: ;
+    color:#83d4f7 ;
     padding: 10px 25px;
     border-radius: 5px;
     text-decoration: none;
